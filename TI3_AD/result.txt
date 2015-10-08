@@ -1,0 +1,220 @@
+class lab1.LinearArrayList
+-------------------------
+Invocation k=1
+	concat : 20
+	retrieve_begin : 0
+	retrieve_middle : 0
+	retrieve_end : 0
+	insert_begin : 11
+	insert_middle : 6
+	insert_end : 1
+	delete_begin : 10
+	delete_middle : 5
+	delete_end : 1
+	find_begin : 1
+	find_middle : 6
+	find_end : 10
+Invocation k=2
+	concat : 200
+	retrieve_begin : 0
+	retrieve_middle : 0
+	retrieve_end : 0
+	insert_begin : 101
+	insert_middle : 51
+	insert_end : 1
+	delete_begin : 100
+	delete_middle : 50
+	delete_end : 1
+	find_begin : 1
+	find_middle : 51
+	find_end : 100
+Invocation k=3
+	concat : 2000
+	retrieve_begin : 0
+	retrieve_middle : 0
+	retrieve_end : 0
+	insert_begin : 1001
+	insert_middle : 501
+	insert_end : 1
+	delete_begin : 1000
+	delete_middle : 500
+	delete_end : 1
+	find_begin : 1
+	find_middle : 501
+	find_end : 1000
+Invocation k=4
+	concat : 20000
+	retrieve_begin : 0
+	retrieve_middle : 0
+	retrieve_end : 0
+	insert_begin : 10001
+	insert_middle : 5001
+	insert_end : 1
+	delete_begin : 10000
+	delete_middle : 5000
+	delete_end : 1
+	find_begin : 1
+	find_middle : 5001
+	find_end : 10000
+Invocation k=5
+	concat : 200000
+	retrieve_begin : 0
+	retrieve_middle : 0
+	retrieve_end : 0
+	insert_begin : 100001
+	insert_middle : 50001
+	insert_end : 1
+	delete_begin : 100000
+	delete_middle : 50000
+	delete_end : 1
+	find_begin : 1
+	find_middle : 50001
+	find_end : 100000
+
+
+class lab1.LinkedArrayList
+-------------------------
+Invocation k=1
+	concat : 10
+	retrieve_begin : 0
+	retrieve_middle : 0
+	retrieve_end : 0
+	insert_begin : 1
+	insert_middle : 1
+	insert_end : 1
+	delete_begin : 1
+	delete_middle : 1
+	delete_end : 1
+	find_begin : 3
+	find_middle : 8
+	find_end : 12
+Invocation k=2
+	concat : 100
+	retrieve_begin : 0
+	retrieve_middle : 0
+	retrieve_end : 0
+	insert_begin : 1
+	insert_middle : 1
+	insert_end : 1
+	delete_begin : 1
+	delete_middle : 1
+	delete_end : 1
+	find_begin : 3
+	find_middle : 53
+	find_end : 102
+Invocation k=3
+	concat : 1000
+	retrieve_begin : 0
+	retrieve_middle : 0
+	retrieve_end : 0
+	insert_begin : 1
+	insert_middle : 1
+	insert_end : 1
+	delete_begin : 1
+	delete_middle : 1
+	delete_end : 1
+	find_begin : 3
+	find_middle : 503
+	find_end : 1002
+Invocation k=4
+	concat : 10000
+	retrieve_begin : 0
+	retrieve_middle : 0
+	retrieve_end : 0
+	insert_begin : 1
+	insert_middle : 1
+	insert_end : 1
+	delete_begin : 1
+	delete_middle : 1
+	delete_end : 1
+	find_begin : 3
+	find_middle : 5003
+	find_end : 10002
+Invocation k=5
+	concat : 100000
+	retrieve_begin : 0
+	retrieve_middle : 0
+	retrieve_end : 0
+	insert_begin : 1
+	insert_middle : 1
+	insert_end : 1
+	delete_begin : 1
+	delete_middle : 1
+	delete_end : 1
+	find_begin : 3
+	find_middle : 50003
+	find_end : 100002
+
+
+class lab1.LinkedList
+-------------------------
+Invocation k=1
+	concat : 10
+	retrieve_begin : 0
+	retrieve_middle : 0
+	retrieve_end : 0
+	insert_begin : 1
+	insert_middle : 1
+	insert_end : 1
+	delete_begin : 1
+	delete_middle : 1
+	delete_end : 1
+	find_begin : 3
+	find_middle : 8
+	find_end : 12
+Invocation k=2
+	concat : 100
+	retrieve_begin : 0
+	retrieve_middle : 0
+	retrieve_end : 0
+	insert_begin : 1
+	insert_middle : 1
+	insert_end : 1
+	delete_begin : 1
+	delete_middle : 1
+	delete_end : 1
+	find_begin : 3
+	find_middle : 53
+	find_end : 102
+Invocation k=3
+	concat : 1000
+	retrieve_begin : 0
+	retrieve_middle : 0
+	retrieve_end : 0
+	insert_begin : 1
+	insert_middle : 1
+	insert_end : 1
+	delete_begin : 1
+	delete_middle : 1
+	delete_end : 1
+	find_begin : 3
+	find_middle : 503
+	find_end : 1002
+Invocation k=4
+	concat : 10000
+	retrieve_begin : 0
+	retrieve_middle : 0
+	retrieve_end : 0
+	insert_begin : 1
+	insert_middle : 1
+	insert_end : 1
+	delete_begin : 1
+	delete_middle : 1
+	delete_end : 1
+	find_begin : 3
+	find_middle : 5003
+	find_end : 10002
+Invocation k=5
+	concat : 100000
+	retrieve_begin : 0
+	retrieve_middle : 0
+	retrieve_end : 0
+	insert_begin : 1
+	insert_middle : 1
+	insert_end : 1
+	delete_begin : 1
+	delete_middle : 1
+	delete_end : 1
+	find_begin : 3
+	find_middle : 50003
+	find_end : 100002
