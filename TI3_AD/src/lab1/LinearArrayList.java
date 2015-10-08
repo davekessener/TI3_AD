@@ -121,22 +121,11 @@ public final class LinearArrayList<T> extends AbstractList<T>
     @Override
     public void concat(List<T> list)
     {
-        int l = list.size();
-
-        // wenn die liste l nicht in den buffer passt,
-        // muss der vergroessert werden
-        if(buf_.length < l_ + l)
-        {
-            buf_ = Arrays.copyOf(buf_, l_ + l);
-            addCounter(l_); // l_ mal copiert
-        }
-        
         // nutzen des interface List zur garantierten komformitaet
         // mit anderen implementationen (performanceverlust ist in kauf zu nehmen)
         for(Pos b = list.begin(), e = list.end() ; !b.equals(e) ; b = b.next())
         {
-            buf_[l_++] = list.retrieve(b);
-            addCounter(1); // assignment
+            insert(end(), list.retrieve(b));
         }
     }
 

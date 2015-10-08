@@ -1,7 +1,7 @@
 class lab1.LinearArrayList
 -------------------------
 Invocation k=1
-	concat : 20
+	concat : 10
 	retrieve_begin : 0
 	retrieve_middle : 0
 	retrieve_end : 0
@@ -15,7 +15,7 @@ Invocation k=1
 	find_middle : 6
 	find_end : 10
 Invocation k=2
-	concat : 200
+	concat : 100
 	retrieve_begin : 0
 	retrieve_middle : 0
 	retrieve_end : 0
@@ -29,7 +29,7 @@ Invocation k=2
 	find_middle : 51
 	find_end : 100
 Invocation k=3
-	concat : 2000
+	concat : 1000
 	retrieve_begin : 0
 	retrieve_middle : 0
 	retrieve_end : 0
@@ -43,7 +43,7 @@ Invocation k=3
 	find_middle : 501
 	find_end : 1000
 Invocation k=4
-	concat : 20000
+	concat : 10000
 	retrieve_begin : 0
 	retrieve_middle : 0
 	retrieve_end : 0
@@ -57,7 +57,7 @@ Invocation k=4
 	find_middle : 5001
 	find_end : 10000
 Invocation k=5
-	concat : 200000
+	concat : 100000
 	retrieve_begin : 0
 	retrieve_middle : 0
 	retrieve_end : 0
