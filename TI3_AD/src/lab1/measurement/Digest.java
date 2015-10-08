@@ -36,7 +36,9 @@ public final class Digest
     {
         try
         {
-            examine(measurer_.run());
+            Format f = new MatlabFormat();
+            examine(measurer_.run(), f);
+            System.out.println(f.toString());
         }
         catch(InstantiationException
                 | IllegalAccessException
@@ -50,27 +52,25 @@ public final class Digest
         }
     }
 
-    public static void examine(Map<Class<?>, Map<String, Map<String, Long>>> results)
+    public static void examine(Map<Class<?>, Map<String, Map<String, Long>>> results, Format formatter)
     {
         for(Class<?> c : results.keySet())
         {
             Map<String, Map<String, Long>> inv = results.get(c);
             
-            System.out.println(c.toString() + "\n-------------------------");
+            formatter.onClass(c);
             
             for(String id : inv.keySet())
             {
                 Map<String, Long> r = inv.get(id);
                 
-                System.out.println("Invocation " + id);
+                formatter.onInvocation(id);
                 
                 for(String method : r.keySet())
                 {
-                    System.out.println("\t" + method + " : " + r.get(method));
+                    formatter.onMethod(method, r.get(method));
                 }
             }
-            
-            System.out.print("\n\n");
         }
     }
     
