@@ -1,0 +1,60 @@
+
+
+class lab2.test.PrimeTestDigest$PrimeIDWrapper
+-----------------------------
+Invocation Prime Test
+	13 Primes : 1
+	86028121 Primes : 1547
+	179424673 Primes : 2233
+	275604541 Primes : 2768
+	373587883 Primes : 3222
+	472882027 Primes : 3625
+	573259391 Primes : 3991
+	674506081 Primes : 4329
+	776531401 Primes : 4645
+	879190747 Primes : 4943
+	982451653 Primes : 5225
+	1086218491 Primes : 5494
+	1190494759 Primes : 5751
+	1295202449 Primes : 5999
+	1400305337 Primes : 6237
+	1505776939 Primes : 6468
+	1611623773 Primes : 6692
+	1717783147 Primes : 6908
+	1824261409 Primes : 7119
+	1931045213 Primes : 7325
+	2038074743 Primes : 7525
+	2145390523 Primes : 7720
+	2147483647 Primes : 7724
+
+
+
+class lab2.FastPrimeSearch
+-----------------------------
+Invocation Prime Search
+	10 Primes : 28
+	100 Primes : 4753
+	1000 Primes : 497503
+	10000 Primes : 49975003
+	100000 Primes : 4999750003
+
+
+class lab2.EratosthenesPrimeSearch
+-----------------------------
+Invocation Prime Search
+	10 Primes : 3
+	100 Primes : 111
+	1000 Primes : 1516
+	10000 Primes : 17989
+	100000 Primes : 202152
+
+
+class lab2.SlowPrimeSearch
+-----------------------------
+Invocation Prime Search
+	10 Primes : 64
+	100 Primes : 9604
+	1000 Primes : 996004
+	10000 Primes : 99960004
+	100000 Primes : 9999600004
+

@@ -1,110 +1,54 @@
-package lab1.measurement;
-
-import java.lang.reflect.InvocationTargetException;
-import java.util.Map;
+package lab1.test;
 
 import lab1.LinearArrayList;
 import lab1.LinkedArrayList;
 import lab1.LinkedList;
+import measurement.Digest;
+import measurement.Format;
+import measurement.Generator;
+import measurement.MatlabFormat;
+import measurement.ParameterFactory;
 
 @SuppressWarnings("unchecked")
-public final class Digest
+public final class ListDigest extends Digest
 {
-    private Measurer measurer_;
-    
-    public Digest()
+    @Override
+    protected Format getFormat() { return new MatlabFormat(); }
+
+    @Override
+    protected void initializeInvocations()
     {
-        measurer_ = new Measurer();
-    }
-    
-    public static void run()
-    {
-        Digest d = new Digest();
-        
-        d.initialize();
-        d.execute();
-    }
-    
-    public void initialize()
-    {
-        initializeInvocations();
-        initializeClasses();
-        initializeMethods();
-    }
-    
-    public void execute()
-    {
-        try
-        {
-            Format f = new MatlabFormat();
-            examine(measurer_.run(), f);
-            System.out.println(f.toString());
-        }
-        catch(InstantiationException
-                | IllegalAccessException
-                | NoSuchMethodException
-                | SecurityException
-                | IllegalArgumentException
-                | InvocationTargetException e)
-        {
-            e.printStackTrace();
-            System.exit(1);
-        }
+        addInvocation("k=1", new ListFiller(10));
+        addInvocation("k=2", new ListFiller(100));
+        addInvocation("k=3", new ListFiller(1000));
+        addInvocation("k=4", new ListFiller(10000));
+        addInvocation("k=5", new ListFiller(100000));
     }
 
-    public static void examine(Map<Class<?>, Map<String, Map<String, Long>>> results, Format formatter)
+    @Override
+    protected void initializeClasses()
     {
-        for(Class<?> c : results.keySet())
-        {
-            Map<String, Map<String, Long>> inv = results.get(c);
-            
-            formatter.onClass(c);
-            
-            for(String id : inv.keySet())
-            {
-                Map<String, Long> r = inv.get(id);
-                
-                formatter.onInvocation(id);
-                
-                for(String method : r.keySet())
-                {
-                    formatter.onMethod(method, r.get(method));
-                }
-            }
-        }
+        addClass(LinearArrayList.class);
+        addClass(LinkedArrayList.class);
+        addClass(LinkedList.class);
     }
-    
-    private void initializeInvocations()
+
+    @Override
+    protected void initializeMethods()
     {
-        measurer_.addInvocation("k=1", new ListFiller(10));
-        measurer_.addInvocation("k=2", new ListFiller(100));
-        measurer_.addInvocation("k=3", new ListFiller(1000));
-        measurer_.addInvocation("k=4", new ListFiller(10000));
-        measurer_.addInvocation("k=5", new ListFiller(100000));
-    }
-    
-    private void initializeClasses()
-    {
-        measurer_.addClass(LinearArrayList.class);
-        measurer_.addClass(LinkedArrayList.class);
-        measurer_.addClass(LinkedList.class);
-    }
-    
-    private void initializeMethods()
-    {
-        measurer_.addMethod(generateConcat());
-        measurer_.addMethod(generateRetrieveBegin());
-        measurer_.addMethod(generateRetrieveMiddle());
-        measurer_.addMethod(generateRetrieveEnd());
-        measurer_.addMethod(generateInsertBegin());
-        measurer_.addMethod(generateInsertMiddle());
-        measurer_.addMethod(generateInsertEnd());
-        measurer_.addMethod(generateDeleteBegin());
-        measurer_.addMethod(generateDeleteMiddle());
-        measurer_.addMethod(generateDeleteEnd());
-        measurer_.addMethod(generateFindBegin());
-        measurer_.addMethod(generateFindMiddle());
-        measurer_.addMethod(generateFindEnd());
+        addMethod(generateConcat());
+        addMethod(generateRetrieveBegin());
+        addMethod(generateRetrieveMiddle());
+        addMethod(generateRetrieveEnd());
+        addMethod(generateInsertBegin());
+        addMethod(generateInsertMiddle());
+        addMethod(generateInsertEnd());
+        addMethod(generateDeleteBegin());
+        addMethod(generateDeleteMiddle());
+        addMethod(generateDeleteEnd());
+        addMethod(generateFindBegin());
+        addMethod(generateFindMiddle());
+        addMethod(generateFindEnd());
     }
     
     private static class ListFiller implements Generator

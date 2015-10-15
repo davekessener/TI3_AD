@@ -1,8 +1,6 @@
-package lab1;
+package measurement;
 
-import lab1.measurement.Measurable;
-
-public abstract class AbstractList<T> implements List<T>, Measurable
+public class AbstractMeasurable implements Measurable
 {
     private long counter_ = 0;
     

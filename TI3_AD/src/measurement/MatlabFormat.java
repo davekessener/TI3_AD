@@ -1,4 +1,4 @@
-package lab1.measurement;
+package measurement;
 
 import java.util.ArrayList;
 import java.util.LinkedHashMap;

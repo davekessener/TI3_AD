@@ -1,4 +1,4 @@
-package lab1.measurement;
+package measurement;
 
 public interface Format
 {

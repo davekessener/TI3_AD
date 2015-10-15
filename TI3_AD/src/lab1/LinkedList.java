@@ -1,5 +1,7 @@
 package lab1;
 
+import measurement.AbstractMeasurable;
+
 /**
  * 
  * @author Daniel Kessener
@@ -10,7 +12,7 @@ package lab1;
  *
  * @param <T>
  */
-public final class LinkedList<T> extends AbstractList<T>
+public final class LinkedList<T> extends AbstractMeasurable implements List<T>
 {
     private Node head_, tail_;
     private int l_; // listenlaenge

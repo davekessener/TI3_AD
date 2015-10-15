@@ -4,6 +4,8 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
+import measurement.AbstractMeasurable;
+
 /**
  * 
  * @author Daniel Kessener
@@ -14,7 +16,7 @@ import java.util.Map;
  *
  * @param <T>
  */
-public final class LinearArrayList<T> extends AbstractList<T>
+public final class LinearArrayList<T> extends AbstractMeasurable implements List<T>
 {
     private Object[] buf_; // Lineares array das den listeninhalt haelt
     private int l_; // tatsaechliche listenlaenge

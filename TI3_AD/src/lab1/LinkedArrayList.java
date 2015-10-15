@@ -2,6 +2,8 @@ package lab1;
 
 import java.util.Arrays;
 
+import measurement.AbstractMeasurable;
+
 /**
  * 
  * @author Daniel Kessener
@@ -12,7 +14,7 @@ import java.util.Arrays;
  *
  * @param <T>
  */
-public final class LinkedArrayList<T> extends AbstractList<T>
+public final class LinkedArrayList<T> extends AbstractMeasurable implements List<T>
 {
     private static final int DUMMY = 0;
     

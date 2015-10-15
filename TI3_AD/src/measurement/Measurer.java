@@ -1,4 +1,4 @@
-package lab1.measurement;
+package measurement;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
 
-final class Measurer
+public final class Measurer
 {
     private List<Class<?>> classes_;
     private List<ParameterFactory> methods_;
@@ -60,7 +60,7 @@ final class Measurer
                 {
                     Generator prep = invocations_.get(iter_name);
                     Measurable l = (Measurable) prep.generate(c.newInstance());
-                    Method m = c.getDeclaredMethod(p.getName(), p.asTypes());
+                    Method m = c.getMethod(p.getName(), p.asTypes());
                     Object[] ps = p.generateParameters(l);
                     
                     l.resetCounter();
