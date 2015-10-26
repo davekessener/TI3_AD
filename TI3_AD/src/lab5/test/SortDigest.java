@@ -1,5 +1,7 @@
 package lab5.test;
 
+import java.util.Random;
+
 import lab5.MeasurableQuicksort;
 import lab5.MedianQuicksort;
 import lab5.RandomQuicksort;
@@ -18,6 +20,7 @@ public class SortDigest extends Digest
         addInvocation("k=1", o -> ((SortWrapper) o).init(10));
         addInvocation("k=2", o -> ((SortWrapper) o).init(100));
         addInvocation("k=3", o -> ((SortWrapper) o).init(1000));
+        addInvocation("k=4", o -> ((SortWrapper) o).init(10000));
     }
 
     @Override
@@ -31,7 +34,13 @@ public class SortDigest extends Digest
     @Override
     protected void initializeMethods()
     {
-        addMethod(new ParameterFactory("sort", "sort"));
+        addMethod(new ParameterFactory("sortBest", "sortBest"));
+        addMethod(new ParameterFactory("sortWorst", "sortWorst"));
+        
+        for(int i = 0 ; i < 10 ; ++i)
+        {
+            addMethod(new ParameterFactory("sortMean" + (i + 1), "sortMean"));
+        }
     }
 
     @Override
@@ -47,9 +56,18 @@ public class SortDigest extends Digest
         {
             return new MedianQuicksort();
         }
+        
+        @Override
+        protected void fillBest(Integer[] a, int i1, int i2, int v)
+        {
+            for(int i = 0 ; i < a.length ; ++i)
+            {
+                a[i] = v++;
+            }
+        }
 
         @Override
-        protected void fill(Integer[] a, int i1, int i2, int v)
+        protected void fillWorst(Integer[] a, int i1, int i2, int v)
         {
             if(i1 == i2)
             {
@@ -67,8 +85,8 @@ public class SortDigest extends Digest
                 a[i1] = a[i] = v;
                 a[i2] = v + 1;
                 
-                fill(a, i1, i - 1, v);
-                fill(a, i + 1, i2, v);
+                fillWorst(a, i1, i - 1, v);
+                fillWorst(a, i + 1, i2, v);
             }
         }
     }
@@ -80,14 +98,17 @@ public class SortDigest extends Digest
         { 
             return new RandomQuicksort(); 
         }
+        
+        @Override
+        protected void fillBest(Integer[] a, int i1, int i2, int v)
+        {
+            fillRandom(a, i1, i2, v);
+        }
 
         @Override
-        protected void fill(Integer[] a, int i1, int i2, int v)
+        protected void fillWorst(Integer[] a, int i1, int i2, int v)
         {
-            for(int i = i1 ; i <= i2 ; ++i)
-            {
-                a[i] = v;
-            }
+            fillRandom(a, i1, i2, v);
         }
     }
     
@@ -98,9 +119,18 @@ public class SortDigest extends Digest
         { 
             return new SimpleQuicksort(); 
         }
+        
+        @Override
+        protected void fillBest(Integer[] a, int i1, int i2, int v)
+        {
+            for(int i = 0 ; i < a.length ; ++i)
+            {
+                a[i] = v++;
+            }
+        }
 
         @Override
-        protected void fill(Integer[] a, int i1, int i2, int v)
+        protected void fillWorst(Integer[] a, int i1, int i2, int v)
         {
             if(i1 >= i2)
             {
@@ -115,8 +145,8 @@ public class SortDigest extends Digest
             {
                 int i = (i1 + i2) / 2;
                 a[i] = v;
-                fill(a, i1, i - 1, v + 1);
-                fill(a, i + 1, i2, v + 1);
+                fillWorst(a, i1, i - 1, v + 1);
+                fillWorst(a, i + 1, i2, v + 1);
             }
         }
     }
@@ -130,19 +160,42 @@ public class SortDigest extends Digest
         {
             sort_ = generateImplementation();
             a_ = new Integer[l];
-            fill(a_, 0, a_.length - 1, 0);
             
             return this;
         }
         
-        public void sort()
+        public void sortBest()
         {
+            fillBest(a_, 0, a_.length - 1, 0);
+            sort_.sort(a_);
+        }
+        
+        public void sortMean()
+        {
+            fillRandom(a_, 0, a_.length - 1, 0);
+            sort_.sort(a_);
+        }
+        
+        public void sortWorst()
+        {
+            fillWorst(a_, 0, a_.length - 1, 0);
             sort_.sort(a_);
         }
         
         protected abstract MeasurableQuicksort generateImplementation();
-        protected abstract void fill(Integer[] a, int i1, int i2, int v);
+        protected abstract void fillBest(Integer[] a, int i1, int i2, int v);
+        protected abstract void fillWorst(Integer[] a, int i1, int i2, int v);
 
+        protected void fillRandom(Integer[] a, int i1, int i2, int v)
+        {
+            Random rand = new Random(System.currentTimeMillis());
+            
+            for(int i = i1 ; i <= i2 ; ++i)
+            {
+                a[i] = rand.nextInt();
+            }
+        }
+        
         @Override
         public void resetCounter()
         {
