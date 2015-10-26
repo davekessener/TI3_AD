@@ -1,10 +1,10 @@
-import lab4.test.PascalDigest;
+import lab5.test.SortDigest;
 
 
 public class Start
 {
     public static void main(String[] args)
     {
-        (new PascalDigest()).run();
+        (new SortDigest()).run();
     }
 }
