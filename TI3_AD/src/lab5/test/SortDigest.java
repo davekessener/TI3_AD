@@ -8,9 +8,9 @@ import lab5.RandomQuicksort;
 import lab5.SimpleQuicksort;
 import measurement.Digest;
 import measurement.Format;
+import measurement.MatlabFormat;
 import measurement.Measurable;
 import measurement.ParameterFactory;
-import measurement.PrintFormat;
 
 public class SortDigest extends Digest
 {
@@ -21,32 +21,34 @@ public class SortDigest extends Digest
         addInvocation("k=2", o -> ((SortWrapper) o).init(100));
         addInvocation("k=3", o -> ((SortWrapper) o).init(1000));
         addInvocation("k=4", o -> ((SortWrapper) o).init(10000));
+        addInvocation("k=5", o -> ((SortWrapper) o).init(100000));
+        addInvocation("k=6", o -> ((SortWrapper) o).init(1000000));
     }
 
     @Override
     protected void initializeClasses()
     {
-        addClass(SimpleQSWrapper.class);
+//        addClass(SimpleQSWrapper.class);
         addClass(MedianQSWrapper.class);
-        addClass(RandomQSWrapper.class);
+//        addClass(RandomQSWrapper.class);
     }
 
     @Override
     protected void initializeMethods()
     {
-        addMethod(new ParameterFactory("sortBest", "sortBest"));
+//        addMethod(new ParameterFactory("sortBest", "sortBest"));
         addMethod(new ParameterFactory("sortWorst", "sortWorst"));
         
         for(int i = 0 ; i < 10 ; ++i)
         {
-            addMethod(new ParameterFactory("sortMean" + (i + 1), "sortMean"));
+//            addMethod(new ParameterFactory("sortMean" + (i + 1), "sortMean"));
         }
     }
 
     @Override
     protected Format getFormat()
     {
-        return new PrintFormat();
+        return new MatlabFormat();
     }
     
     public static class MedianQSWrapper extends SortWrapper
@@ -69,24 +71,9 @@ public class SortDigest extends Digest
         @Override
         protected void fillWorst(Integer[] a, int i1, int i2, int v)
         {
-            if(i1 == i2)
+            for(int i = 0 ; i < a.length ; ++i)
             {
-                a[i1] = v;
-            }
-            else if(i1 + 1 == i2)
-            {
-                a[i1] = v + 1;
-                a[i2] = v;
-            }
-            else
-            {
-                int i = (i1 + i2) / 2;
-                
-                a[i1] = a[i] = v;
-                a[i2] = v + 1;
-                
-                fillWorst(a, i1, i - 1, v);
-                fillWorst(a, i + 1, i2, v);
+                a[i] = v;
             }
         }
     }
@@ -108,7 +95,10 @@ public class SortDigest extends Digest
         @Override
         protected void fillWorst(Integer[] a, int i1, int i2, int v)
         {
-            fillRandom(a, i1, i2, v);
+            for(int i = 0 ; i < a.length ; ++i)
+            {
+                a[i] = v;
+            }
         }
     }
     
