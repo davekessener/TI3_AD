@@ -2,6 +2,7 @@ import lab1.test.ListDigest;
 import lab2.test.PrimeSearchDigest;
 import lab4.test.PascalDigest;
 import lab5.test.SortDigest;
+import lab6.Digest;
 
 
 @SuppressWarnings("all")
@@ -12,6 +13,6 @@ public class Start
 //        (new ListDigest()).run();
 //        (new PrimeSearchDigest()).run();
 //        (new PascalDigest()).run();
-        (new SortDigest()).run();
+        (new Digest()).run();
     }
 }
