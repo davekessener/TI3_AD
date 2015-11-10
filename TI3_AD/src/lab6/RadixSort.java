@@ -4,12 +4,12 @@ public class RadixSort
 {
     public static void sort(int[] a)
     {
-        int r[] = new int[a.length];
-        int b[] = new int[256];
+        int[] r = new int[a.length];
+        int[] b = new int[256];
 
         for(int s = 0 ; s < 32 ; s += 8)
         {
-            int t[] = new int[256];
+            int[] t = new int[256];
             
             for(int i = 0 ; i < a.length ; ++i)
             {
@@ -26,7 +26,7 @@ public class RadixSort
                 r[b[(a[i] >> s) & 255]++] = a[i];
             }
             
-            int e[] = a;
+            int[] e = a;
             a = r;
             r = e;
         }
