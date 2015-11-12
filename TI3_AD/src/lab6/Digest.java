@@ -13,6 +13,8 @@ public class Digest
     
     public void run()
     {
+        initialize();
+        
         for(int k = 1 ; k <= SIZE ; ++k)
         {
             System.out.println("\n#####\nFor k == " + k + ":");
@@ -20,6 +22,11 @@ public class Digest
             System.out.println("QuickSort takes " + prettyTime(measure(k, a -> QuickSort.sort(a))));
             System.out.println(" JavaSort takes " + prettyTime(measure(k, a -> Arrays.sort(a))));
         }
+    }
+    
+    private void initialize()
+    {
+        measure(3, a -> RadixSort.sort(a));
     }
     
     private long measure(int k, Sorter s)

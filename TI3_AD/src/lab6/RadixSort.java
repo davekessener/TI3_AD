@@ -5,7 +5,7 @@ public class RadixSort
     public static void sort(int[] a)
     {
         int[] r = new int[a.length];
-        int[] b = new int[256];
+        int[] e = null;
 
         for(int s = 0 ; s < 32 ; s += 8)
         {
@@ -16,17 +16,18 @@ public class RadixSort
                 ++t[(a[i] >> s) & 255]; 
             }
             
-            for(int i = 0, j = 0 ; i < 256 ; j += t[i++])
+            for(int i = 0, j = 0 ; i < 256 ; ++i)
             {
-                b[i] = j;
+                j += t[i];
+                t[i] = j - t[i];
             }
             
             for(int i = 0 ; i < a.length ; ++i)
             {
-                r[b[(a[i] >> s) & 255]++] = a[i];
+                r[t[(a[i] >> s) & 255]++] = a[i];
             }
             
-            int[] e = a;
+            e = a;
             a = r;
             r = e;
         }

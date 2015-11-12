@@ -1,0 +1,36 @@
+
+#####
+For k == 1:
+RadixSort takes 00:00:00.000_009_638
+QuickSort takes 00:00:00.000_022_133
+ JavaSort takes 00:00:00.000_013_504
+
+#####
+For k == 2:
+RadixSort takes 00:00:00.000_011_938
+QuickSort takes 00:00:00.000_015_532
+ JavaSort takes 00:00:00.000_023_306
+
+#####
+For k == 3:
+RadixSort takes 00:00:00.000_029_807
+QuickSort takes 00:00:00.000_112_103
+ JavaSort takes 00:00:00.000_286_214
+
+#####
+For k == 4:
+RadixSort takes 00:00:00.000_193_702
+QuickSort takes 00:00:00.001_401_782
+ JavaSort takes 00:00:00.001_156_561
+
+#####
+For k == 5:
+RadixSort takes 00:00:00.001_813_478
+QuickSort takes 00:00:00.013_435_550
+ JavaSort takes 00:00:00.009_513_981
+
+#####
+For k == 6:
+RadixSort takes 00:00:00.015_502_257
+QuickSort takes 00:00:00.125_946_610
+ JavaSort takes 00:00:00.092_009_216
