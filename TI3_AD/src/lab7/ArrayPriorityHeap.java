@@ -1,5 +1,6 @@
 package lab7;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
@@ -90,19 +91,61 @@ public class ArrayPriorityHeap<T> implements SearchTree<T>
     @Override
     public List<T> preorder()
     {
-        return null;
+        List<T> r = new ArrayList<>(size_);
+        
+        preorder(r, 0);
+        
+        return r;
     }
 
     @Override
     public List<T> inorder()
     {
-        return null;
+        List<T> r = new ArrayList<>(size_);
+        
+        inorder(r, 0);
+        
+        return r;
     }
 
     @Override
     public List<T> postorder()
     {
-        return null;
+        List<T> r = new ArrayList<>(size_);
+        
+        postorder(r, 0);
+        
+        return r;
+    }
+    
+    private void preorder(List<T> l, int n)
+    {
+        if(n < size_)
+        {
+            l.add(vals_[n]);
+            preorder(l, n * 2);
+            preorder(l, n * 2 + 1);
+        }
+    }
+    
+    private void inorder(List<T> l, int n)
+    {
+        if(n < size_)
+        {
+            inorder(l, n * 2);
+            l.add(vals_[n]);
+            inorder(l, n * 2 + 1);
+        }
+    }
+    
+    private void postorder(List<T> l, int n)
+    {
+        if(n < size_)
+        {
+            postorder(l, n * 2);
+            postorder(l, n * 2 + 1);
+            l.add(vals_[n]);
+        }
     }
     
     private void resize()
