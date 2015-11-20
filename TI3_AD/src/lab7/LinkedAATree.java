@@ -7,7 +7,7 @@ import java.util.List;
 public class LinkedAATree<T> implements SearchTree<T>
 {
     private Comparator<T> comp_;
-    private Node root_;
+    private AANode<T> root_;
     private int size_;
     
     @SuppressWarnings({ "unchecked", "rawtypes" })
@@ -23,6 +23,16 @@ public class LinkedAATree<T> implements SearchTree<T>
         comp_ = c;
         clear();
     }
+    
+    protected AANode<T> getRoot()
+    {
+        return root_;
+    }
+    
+    protected int compare(T a, T b)
+    {
+        return comp_.compare(a, b);
+    }
 
     @Override
     public void insert(T v)
@@ -35,17 +45,17 @@ public class LinkedAATree<T> implements SearchTree<T>
         ++size_;
     }
     
-    private Node insert(T v, Node n)
+    private AANode<T> insert(T v, AANode<T> n)
     {
         if(n == null)
-            return new Node(v);
+            return makeNode(v);
         
-        int r = comp_.compare(v, n.value_);
+        int r = compare(v, n.getValue());
         
         if(r < 0)
-            n.left_ = insert(v, n.left_);
+            n.setLeft(insert(v, n.getLeft()));
         else if(r > 0)
-            n.right_ = insert(v, n.right_);
+            n.setRight(insert(v, n.getRight()));
         
         return split(skew(n));
     }
@@ -61,28 +71,28 @@ public class LinkedAATree<T> implements SearchTree<T>
         --size_;
     }
     
-    private Node remove(T v, Node n)
+    private AANode<T> remove(T v, AANode<T> n)
     {
         if(n == null)
             return null;
         
-        int r = comp_.compare(v, n.value_);
+        int r = compare(v, n.getValue());
         
         if(r < 0)
-            n.left_ = remove(v, n.left_);
+            n.setLeft(remove(v, n.getLeft()));
         else if(r > 0)
-            n.right_ = remove(v, n.right_);
+            n.setRight(remove(v, n.getRight()));
         else if(n.isLeaf())
             return null;
         else
-            n.remove_nonleaf(v);
+            remove_nonleaf(v, n);
         
         n = skew(n.reduce());
-        n.right_ = skew(n.right_);
-        if(n.right_ != null) n.right_.right_ = skew(n.right_.right_);
+        n.setRight(skew(n.getRight()));
+        if(n.getRight() != null) n.getRight().setRight(skew(n.getRight().getRight()));
         
         n = split(n);
-        n.right_ = split(n.right_);
+        n.setRight(split(n.getRight()));
         
         return n;
     }
@@ -112,28 +122,44 @@ public class LinkedAATree<T> implements SearchTree<T>
         return root_ == null;
     }
 
-    private Node skew(Node n)
+    private AANode<T> skew(AANode<T> n)
     {
-        return  (n == null || n.left_ == null || n.lvl_ != n.left_.lvl_) 
+        return  (n == null || n.getLeft() == null || n.getLevel() != n.getLeft().getLevel()) 
                 ? n 
                 : n.reverse();
     }
     
-    private Node split(Node n)
+    private AANode<T> split(AANode<T> n)
     {
-        return  (n == null || n.right_ == null || n.right_.right_ == null || n.lvl_ != n.right_.right_.lvl_) 
+        return  (n == null || n.getRight() == null || n.getRight().getRight() == null || n.getLevel() != n.getRight().getRight().getLevel()) 
                 ? n 
                 : n.elevate();
     }
 
-    private Node find(T v, Node n)
+    private AANode<T> find(T v, AANode<T> n)
     {
         if(n == null || v == null)
             return null;
         
-        int r = comp_.compare(v, n.value_);
+        int r = compare(v, n.getValue());
         
-        return r == 0 ? n : find(v, r < 0 ? n.left_ : n.right_);
+        return r == 0 ? n : find(v, r < 0 ? n.getLeft() : n.getRight());
+    }
+
+    private void remove_nonleaf(T v, AANode<T> n)
+    {
+        if(n.getLeft() == null)
+        {
+            AANode<T> m = n.getRight();
+            n.setRight(remove(m.getValue(), n.getRight()));
+            n.setValue(m.getValue());
+        }
+        else
+        {
+            AANode<T> m = n.getLeft();
+            n.setLeft(remove(m.getValue(), n.getLeft()));
+            n.setValue(m.getValue());
+        }
     }
 
     @Override
@@ -166,103 +192,35 @@ public class LinkedAATree<T> implements SearchTree<T>
         return r;
     }
     
-    private void preorder(List<T> l, Node n)
+    private void preorder(List<T> l, AANode<T> n)
     {
         if(n != null)
         {
-            l.add(n.value_);
-            preorder(l, n.left_);
-            preorder(l, n.right_);
+            l.add(n.getValue());
+            preorder(l, n.getLeft());
+            preorder(l, n.getRight());
         }
     }
     
-    private void inorder(List<T> l, Node n)
+    private void inorder(List<T> l, AANode<T> n)
     {
         if(n != null)
         {
-            inorder(l, n.left_);
-            l.add(n.value_);
-            inorder(l, n.right_);
+            inorder(l, n.getLeft());
+            l.add(n.getValue());
+            inorder(l, n.getRight());
         }
     }
     
-    private void postorder(List<T> l, Node n)
+    private void postorder(List<T> l, AANode<T> n)
     {
         if(n != null)
         {
-            postorder(l, n.left_);
-            postorder(l, n.right_);
-            l.add(n.value_);
+            postorder(l, n.getLeft());
+            postorder(l, n.getRight());
+            l.add(n.getValue());
         }
     }
 
-    private class Node
-    {
-        private T value_;
-        private int lvl_;
-        private Node left_, right_;
-        
-        private Node(T v) { this(v, 1, null, null); }
-        private Node(T v, int l) { this(v, l, null, null); }
-        private Node(T v, int lvl, Node l, Node r)
-        {
-            value_ = v;
-            lvl_ = lvl;
-            left_ = l;
-            right_ = r;
-        }
-        
-        private boolean isLeaf()
-        {
-            return left_ == null && right_ == null;
-        }
-
-        private Node reverse()
-        {
-            Node l = left_;
-            left_ = l.right_;
-            l.right_ = this;
-            return l;
-        }
-        
-        private Node elevate()
-        {
-            Node r = right_;
-            right_ = r.left_;
-            r.left_ = this;
-            ++r.lvl_;
-            return r;
-        }
-        
-        private Node reduce()
-        {
-            int l = Math.min(left_ == null ? 0 : left_.lvl_, 
-                             right_ == null ? 0 : right_.lvl_) + 1;
-            
-            if(lvl_ > l)
-            {
-                lvl_ = l;
-                if(right_ != null && right_.lvl_ > l)
-                    right_.lvl_ = l;
-            }
-            
-            return this;
-        }
-
-        private void remove_nonleaf(T v)
-        {
-            if(left_ == null)
-            {
-                Node m = right_;
-                right_ = remove(m.value_, right_);
-                value_ = m.value_;
-            }
-            else
-            {
-                Node m = left_;
-                left_ = remove(m.value_, left_);
-                value_ = m.value_;
-            }
-        }
-    }
+    protected AANode<T> makeNode(T v) { return new AANode<T>(v, 1, null, null); }
 }
