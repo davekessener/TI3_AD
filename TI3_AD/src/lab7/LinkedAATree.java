@@ -148,16 +148,17 @@ public class LinkedAATree<T> implements SearchTree<T>
 
     private void remove_nonleaf(T v, AANode<T> n)
     {
+        
         if(n.getLeft() == null)
         {
             AANode<T> m = n.getRight();
-            n.setRight(remove(m.getValue(), n.getRight()));
+            n.setRight(remove(m.getValue(), m));
             n.setValue(m.getValue());
         }
         else
         {
             AANode<T> m = n.getLeft();
-            n.setLeft(remove(m.getValue(), n.getLeft()));
+            n.setLeft(remove(m.getValue(), m));
             n.setValue(m.getValue());
         }
     }

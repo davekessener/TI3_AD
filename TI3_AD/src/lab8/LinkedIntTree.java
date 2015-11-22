@@ -5,28 +5,36 @@ import lab7.LinkedAATree;
 
 public class LinkedIntTree extends LinkedAATree<Integer>
 {
+    private boolean dirty_ = true;
+    
     @Override
     public void insert(Integer i)
     {
         super.insert(i);
         
-        recalculate();
+        dirty_ = true;
     }
     
     @Override
     public void remove(Integer i)
     {
         super.remove(i);
-        
-        recalculate();
+
+        dirty_ = true;
     }
     
     public int getSumBetween(int m, int M)
     {
-        IntNode a_m = (IntNode) findBorder(m, 1, getRoot());
-        IntNode a_M = (IntNode) findBorder(M, -1, getRoot());
+        if(dirty_)
+        {
+            recalculate();
+            dirty_ = false;
+        }
         
-        return a_M.worth_ - a_m.worth_;
+        IntNode a_m = (IntNode) findBorder(m, -1, getRoot());
+        IntNode a_M = (IntNode) findBorder(M, 1, getRoot());
+        
+        return a_M.getWorth() - a_m.getWorth() + a_m.getValue();
     }
     
     private void recalculate()
@@ -79,7 +87,9 @@ public class LinkedIntTree extends LinkedAATree<Integer>
             worth_ = i;
         }
         
-        public int calculate(int leftparent)
+        private int getWorth() { return worth_; }
+        
+        private int calculate(int leftparent)
         {
             worth_ = getValue() + (getLeft() == null ? leftparent : ((IntNode) getLeft()).calculate(leftparent));
             
