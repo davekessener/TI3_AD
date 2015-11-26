@@ -1,0 +1,1405 @@
+
+
+class lab8.test.LinkedIntTreeDigest$IntTree
+-----------------------------
+Invocation k=0 [0]
+	calculate2147483647 : 2
+Invocation k=0 [10]
+	calculate2147483647 : 2
+Invocation k=0 [11]
+	calculate2147483647 : 2
+Invocation k=0 [12]
+	calculate2147483647 : 2
+Invocation k=0 [13]
+	calculate2147483647 : 2
+Invocation k=0 [14]
+	calculate2147483647 : 2
+Invocation k=0 [15]
+	calculate2147483647 : 2
+Invocation k=0 [16]
+	calculate2147483647 : 2
+Invocation k=0 [17]
+	calculate2147483647 : 2
+Invocation k=0 [18]
+	calculate2147483647 : 2
+Invocation k=0 [19]
+	calculate2147483647 : 2
+Invocation k=0 [1]
+	calculate2147483647 : 2
+Invocation k=0 [20]
+	calculate2147483647 : 2
+Invocation k=0 [21]
+	calculate2147483647 : 2
+Invocation k=0 [22]
+	calculate2147483647 : 2
+Invocation k=0 [23]
+	calculate2147483647 : 2
+Invocation k=0 [24]
+	calculate2147483647 : 2
+Invocation k=0 [25]
+	calculate2147483647 : 2
+Invocation k=0 [26]
+	calculate2147483647 : 2
+Invocation k=0 [27]
+	calculate2147483647 : 2
+Invocation k=0 [28]
+	calculate2147483647 : 2
+Invocation k=0 [29]
+	calculate2147483647 : 2
+Invocation k=0 [2]
+	calculate2147483647 : 2
+Invocation k=0 [30]
+	calculate2147483647 : 2
+Invocation k=0 [31]
+	calculate2147483647 : 2
+Invocation k=0 [32]
+	calculate2147483647 : 2
+Invocation k=0 [33]
+	calculate2147483647 : 2
+Invocation k=0 [34]
+	calculate2147483647 : 2
+Invocation k=0 [35]
+	calculate2147483647 : 2
+Invocation k=0 [36]
+	calculate2147483647 : 2
+Invocation k=0 [37]
+	calculate2147483647 : 2
+Invocation k=0 [38]
+	calculate2147483647 : 2
+Invocation k=0 [39]
+	calculate2147483647 : 2
+Invocation k=0 [3]
+	calculate2147483647 : 2
+Invocation k=0 [40]
+	calculate2147483647 : 2
+Invocation k=0 [41]
+	calculate2147483647 : 2
+Invocation k=0 [42]
+	calculate2147483647 : 2
+Invocation k=0 [43]
+	calculate2147483647 : 2
+Invocation k=0 [44]
+	calculate2147483647 : 2
+Invocation k=0 [45]
+	calculate2147483647 : 2
+Invocation k=0 [46]
+	calculate2147483647 : 2
+Invocation k=0 [47]
+	calculate2147483647 : 2
+Invocation k=0 [48]
+	calculate2147483647 : 2
+Invocation k=0 [49]
+	calculate2147483647 : 2
+Invocation k=0 [4]
+	calculate2147483647 : 2
+Invocation k=0 [50]
+	calculate2147483647 : 2
+Invocation k=0 [51]
+	calculate2147483647 : 2
+Invocation k=0 [52]
+	calculate2147483647 : 2
+Invocation k=0 [53]
+	calculate2147483647 : 2
+Invocation k=0 [54]
+	calculate2147483647 : 2
+Invocation k=0 [55]
+	calculate2147483647 : 2
+Invocation k=0 [56]
+	calculate2147483647 : 2
+Invocation k=0 [57]
+	calculate2147483647 : 2
+Invocation k=0 [58]
+	calculate2147483647 : 2
+Invocation k=0 [59]
+	calculate2147483647 : 2
+Invocation k=0 [5]
+	calculate2147483647 : 2
+Invocation k=0 [60]
+	calculate2147483647 : 2
+Invocation k=0 [61]
+	calculate2147483647 : 2
+Invocation k=0 [62]
+	calculate2147483647 : 2
+Invocation k=0 [63]
+	calculate2147483647 : 2
+Invocation k=0 [64]
+	calculate2147483647 : 2
+Invocation k=0 [65]
+	calculate2147483647 : 2
+Invocation k=0 [66]
+	calculate2147483647 : 2
+Invocation k=0 [67]
+	calculate2147483647 : 2
+Invocation k=0 [68]
+	calculate2147483647 : 2
+Invocation k=0 [69]
+	calculate2147483647 : 2
+Invocation k=0 [6]
+	calculate2147483647 : 2
+Invocation k=0 [70]
+	calculate2147483647 : 2
+Invocation k=0 [71]
+	calculate2147483647 : 2
+Invocation k=0 [72]
+	calculate2147483647 : 2
+Invocation k=0 [73]
+	calculate2147483647 : 2
+Invocation k=0 [74]
+	calculate2147483647 : 2
+Invocation k=0 [75]
+	calculate2147483647 : 2
+Invocation k=0 [76]
+	calculate2147483647 : 2
+Invocation k=0 [77]
+	calculate2147483647 : 2
+Invocation k=0 [78]
+	calculate2147483647 : 2
+Invocation k=0 [79]
+	calculate2147483647 : 2
+Invocation k=0 [7]
+	calculate2147483647 : 2
+Invocation k=0 [80]
+	calculate2147483647 : 2
+Invocation k=0 [81]
+	calculate2147483647 : 2
+Invocation k=0 [82]
+	calculate2147483647 : 2
+Invocation k=0 [83]
+	calculate2147483647 : 2
+Invocation k=0 [84]
+	calculate2147483647 : 2
+Invocation k=0 [85]
+	calculate2147483647 : 2
+Invocation k=0 [86]
+	calculate2147483647 : 2
+Invocation k=0 [87]
+	calculate2147483647 : 2
+Invocation k=0 [88]
+	calculate2147483647 : 2
+Invocation k=0 [89]
+	calculate2147483647 : 2
+Invocation k=0 [8]
+	calculate2147483647 : 2
+Invocation k=0 [90]
+	calculate2147483647 : 2
+Invocation k=0 [91]
+	calculate2147483647 : 2
+Invocation k=0 [92]
+	calculate2147483647 : 2
+Invocation k=0 [93]
+	calculate2147483647 : 2
+Invocation k=0 [94]
+	calculate2147483647 : 2
+Invocation k=0 [95]
+	calculate2147483647 : 2
+Invocation k=0 [96]
+	calculate2147483647 : 2
+Invocation k=0 [97]
+	calculate2147483647 : 2
+Invocation k=0 [98]
+	calculate2147483647 : 2
+Invocation k=0 [99]
+	calculate2147483647 : 2
+Invocation k=0 [9]
+	calculate2147483647 : 2
+Invocation k=1 [0]
+	calculate2147483647 : 8
+Invocation k=1 [10]
+	calculate2147483647 : 7
+Invocation k=1 [11]
+	calculate2147483647 : 7
+Invocation k=1 [12]
+	calculate2147483647 : 7
+Invocation k=1 [13]
+	calculate2147483647 : 8
+Invocation k=1 [14]
+	calculate2147483647 : 7
+Invocation k=1 [15]
+	calculate2147483647 : 7
+Invocation k=1 [16]
+	calculate2147483647 : 7
+Invocation k=1 [17]
+	calculate2147483647 : 8
+Invocation k=1 [18]
+	calculate2147483647 : 7
+Invocation k=1 [19]
+	calculate2147483647 : 7
+Invocation k=1 [1]
+	calculate2147483647 : 7
+Invocation k=1 [20]
+	calculate2147483647 : 8
+Invocation k=1 [21]
+	calculate2147483647 : 7
+Invocation k=1 [22]
+	calculate2147483647 : 6
+Invocation k=1 [23]
+	calculate2147483647 : 8
+Invocation k=1 [24]
+	calculate2147483647 : 7
+Invocation k=1 [25]
+	calculate2147483647 : 7
+Invocation k=1 [26]
+	calculate2147483647 : 7
+Invocation k=1 [27]
+	calculate2147483647 : 7
+Invocation k=1 [28]
+	calculate2147483647 : 8
+Invocation k=1 [29]
+	calculate2147483647 : 7
+Invocation k=1 [2]
+	calculate2147483647 : 7
+Invocation k=1 [30]
+	calculate2147483647 : 6
+Invocation k=1 [31]
+	calculate2147483647 : 7
+Invocation k=1 [32]
+	calculate2147483647 : 7
+Invocation k=1 [33]
+	calculate2147483647 : 7
+Invocation k=1 [34]
+	calculate2147483647 : 7
+Invocation k=1 [35]
+	calculate2147483647 : 7
+Invocation k=1 [36]
+	calculate2147483647 : 8
+Invocation k=1 [37]
+	calculate2147483647 : 9
+Invocation k=1 [38]
+	calculate2147483647 : 7
+Invocation k=1 [39]
+	calculate2147483647 : 8
+Invocation k=1 [3]
+	calculate2147483647 : 7
+Invocation k=1 [40]
+	calculate2147483647 : 7
+Invocation k=1 [41]
+	calculate2147483647 : 7
+Invocation k=1 [42]
+	calculate2147483647 : 7
+Invocation k=1 [43]
+	calculate2147483647 : 8
+Invocation k=1 [44]
+	calculate2147483647 : 7
+Invocation k=1 [45]
+	calculate2147483647 : 6
+Invocation k=1 [46]
+	calculate2147483647 : 6
+Invocation k=1 [47]
+	calculate2147483647 : 8
+Invocation k=1 [48]
+	calculate2147483647 : 8
+Invocation k=1 [49]
+	calculate2147483647 : 7
+Invocation k=1 [4]
+	calculate2147483647 : 8
+Invocation k=1 [50]
+	calculate2147483647 : 8
+Invocation k=1 [51]
+	calculate2147483647 : 7
+Invocation k=1 [52]
+	calculate2147483647 : 8
+Invocation k=1 [53]
+	calculate2147483647 : 8
+Invocation k=1 [54]
+	calculate2147483647 : 7
+Invocation k=1 [55]
+	calculate2147483647 : 6
+Invocation k=1 [56]
+	calculate2147483647 : 8
+Invocation k=1 [57]
+	calculate2147483647 : 8
+Invocation k=1 [58]
+	calculate2147483647 : 7
+Invocation k=1 [59]
+	calculate2147483647 : 6
+Invocation k=1 [5]
+	calculate2147483647 : 7
+Invocation k=1 [60]
+	calculate2147483647 : 7
+Invocation k=1 [61]
+	calculate2147483647 : 6
+Invocation k=1 [62]
+	calculate2147483647 : 7
+Invocation k=1 [63]
+	calculate2147483647 : 8
+Invocation k=1 [64]
+	calculate2147483647 : 7
+Invocation k=1 [65]
+	calculate2147483647 : 7
+Invocation k=1 [66]
+	calculate2147483647 : 6
+Invocation k=1 [67]
+	calculate2147483647 : 7
+Invocation k=1 [68]
+	calculate2147483647 : 7
+Invocation k=1 [69]
+	calculate2147483647 : 7
+Invocation k=1 [6]
+	calculate2147483647 : 7
+Invocation k=1 [70]
+	calculate2147483647 : 7
+Invocation k=1 [71]
+	calculate2147483647 : 7
+Invocation k=1 [72]
+	calculate2147483647 : 6
+Invocation k=1 [73]
+	calculate2147483647 : 7
+Invocation k=1 [74]
+	calculate2147483647 : 7
+Invocation k=1 [75]
+	calculate2147483647 : 7
+Invocation k=1 [76]
+	calculate2147483647 : 8
+Invocation k=1 [77]
+	calculate2147483647 : 6
+Invocation k=1 [78]
+	calculate2147483647 : 7
+Invocation k=1 [79]
+	calculate2147483647 : 6
+Invocation k=1 [7]
+	calculate2147483647 : 6
+Invocation k=1 [80]
+	calculate2147483647 : 6
+Invocation k=1 [81]
+	calculate2147483647 : 7
+Invocation k=1 [82]
+	calculate2147483647 : 7
+Invocation k=1 [83]
+	calculate2147483647 : 7
+Invocation k=1 [84]
+	calculate2147483647 : 8
+Invocation k=1 [85]
+	calculate2147483647 : 7
+Invocation k=1 [86]
+	calculate2147483647 : 8
+Invocation k=1 [87]
+	calculate2147483647 : 7
+Invocation k=1 [88]
+	calculate2147483647 : 7
+Invocation k=1 [89]
+	calculate2147483647 : 7
+Invocation k=1 [8]
+	calculate2147483647 : 7
+Invocation k=1 [90]
+	calculate2147483647 : 7
+Invocation k=1 [91]
+	calculate2147483647 : 7
+Invocation k=1 [92]
+	calculate2147483647 : 7
+Invocation k=1 [93]
+	calculate2147483647 : 7
+Invocation k=1 [94]
+	calculate2147483647 : 7
+Invocation k=1 [95]
+	calculate2147483647 : 7
+Invocation k=1 [96]
+	calculate2147483647 : 6
+Invocation k=1 [97]
+	calculate2147483647 : 8
+Invocation k=1 [98]
+	calculate2147483647 : 8
+Invocation k=1 [99]
+	calculate2147483647 : 8
+Invocation k=1 [9]
+	calculate2147483647 : 6
+Invocation k=2 [0]
+	calculate2147483647 : 15
+Invocation k=2 [10]
+	calculate2147483647 : 14
+Invocation k=2 [11]
+	calculate2147483647 : 13
+Invocation k=2 [12]
+	calculate2147483647 : 14
+Invocation k=2 [13]
+	calculate2147483647 : 15
+Invocation k=2 [14]
+	calculate2147483647 : 13
+Invocation k=2 [15]
+	calculate2147483647 : 14
+Invocation k=2 [16]
+	calculate2147483647 : 15
+Invocation k=2 [17]
+	calculate2147483647 : 14
+Invocation k=2 [18]
+	calculate2147483647 : 13
+Invocation k=2 [19]
+	calculate2147483647 : 16
+Invocation k=2 [1]
+	calculate2147483647 : 13
+Invocation k=2 [20]
+	calculate2147483647 : 12
+Invocation k=2 [21]
+	calculate2147483647 : 14
+Invocation k=2 [22]
+	calculate2147483647 : 13
+Invocation k=2 [23]
+	calculate2147483647 : 14
+Invocation k=2 [24]
+	calculate2147483647 : 14
+Invocation k=2 [25]
+	calculate2147483647 : 14
+Invocation k=2 [26]
+	calculate2147483647 : 13
+Invocation k=2 [27]
+	calculate2147483647 : 15
+Invocation k=2 [28]
+	calculate2147483647 : 15
+Invocation k=2 [29]
+	calculate2147483647 : 13
+Invocation k=2 [2]
+	calculate2147483647 : 13
+Invocation k=2 [30]
+	calculate2147483647 : 14
+Invocation k=2 [31]
+	calculate2147483647 : 12
+Invocation k=2 [32]
+	calculate2147483647 : 13
+Invocation k=2 [33]
+	calculate2147483647 : 14
+Invocation k=2 [34]
+	calculate2147483647 : 14
+Invocation k=2 [35]
+	calculate2147483647 : 14
+Invocation k=2 [36]
+	calculate2147483647 : 13
+Invocation k=2 [37]
+	calculate2147483647 : 13
+Invocation k=2 [38]
+	calculate2147483647 : 13
+Invocation k=2 [39]
+	calculate2147483647 : 15
+Invocation k=2 [3]
+	calculate2147483647 : 13
+Invocation k=2 [40]
+	calculate2147483647 : 15
+Invocation k=2 [41]
+	calculate2147483647 : 15
+Invocation k=2 [42]
+	calculate2147483647 : 14
+Invocation k=2 [43]
+	calculate2147483647 : 14
+Invocation k=2 [44]
+	calculate2147483647 : 13
+Invocation k=2 [45]
+	calculate2147483647 : 15
+Invocation k=2 [46]
+	calculate2147483647 : 15
+Invocation k=2 [47]
+	calculate2147483647 : 15
+Invocation k=2 [48]
+	calculate2147483647 : 14
+Invocation k=2 [49]
+	calculate2147483647 : 15
+Invocation k=2 [4]
+	calculate2147483647 : 13
+Invocation k=2 [50]
+	calculate2147483647 : 14
+Invocation k=2 [51]
+	calculate2147483647 : 15
+Invocation k=2 [52]
+	calculate2147483647 : 15
+Invocation k=2 [53]
+	calculate2147483647 : 13
+Invocation k=2 [54]
+	calculate2147483647 : 14
+Invocation k=2 [55]
+	calculate2147483647 : 13
+Invocation k=2 [56]
+	calculate2147483647 : 13
+Invocation k=2 [57]
+	calculate2147483647 : 13
+Invocation k=2 [58]
+	calculate2147483647 : 15
+Invocation k=2 [59]
+	calculate2147483647 : 14
+Invocation k=2 [5]
+	calculate2147483647 : 14
+Invocation k=2 [60]
+	calculate2147483647 : 14
+Invocation k=2 [61]
+	calculate2147483647 : 14
+Invocation k=2 [62]
+	calculate2147483647 : 13
+Invocation k=2 [63]
+	calculate2147483647 : 15
+Invocation k=2 [64]
+	calculate2147483647 : 13
+Invocation k=2 [65]
+	calculate2147483647 : 13
+Invocation k=2 [66]
+	calculate2147483647 : 13
+Invocation k=2 [67]
+	calculate2147483647 : 13
+Invocation k=2 [68]
+	calculate2147483647 : 15
+Invocation k=2 [69]
+	calculate2147483647 : 14
+Invocation k=2 [6]
+	calculate2147483647 : 13
+Invocation k=2 [70]
+	calculate2147483647 : 15
+Invocation k=2 [71]
+	calculate2147483647 : 13
+Invocation k=2 [72]
+	calculate2147483647 : 16
+Invocation k=2 [73]
+	calculate2147483647 : 14
+Invocation k=2 [74]
+	calculate2147483647 : 14
+Invocation k=2 [75]
+	calculate2147483647 : 14
+Invocation k=2 [76]
+	calculate2147483647 : 14
+Invocation k=2 [77]
+	calculate2147483647 : 13
+Invocation k=2 [78]
+	calculate2147483647 : 13
+Invocation k=2 [79]
+	calculate2147483647 : 15
+Invocation k=2 [7]
+	calculate2147483647 : 14
+Invocation k=2 [80]
+	calculate2147483647 : 13
+Invocation k=2 [81]
+	calculate2147483647 : 14
+Invocation k=2 [82]
+	calculate2147483647 : 14
+Invocation k=2 [83]
+	calculate2147483647 : 14
+Invocation k=2 [84]
+	calculate2147483647 : 14
+Invocation k=2 [85]
+	calculate2147483647 : 12
+Invocation k=2 [86]
+	calculate2147483647 : 13
+Invocation k=2 [87]
+	calculate2147483647 : 13
+Invocation k=2 [88]
+	calculate2147483647 : 13
+Invocation k=2 [89]
+	calculate2147483647 : 14
+Invocation k=2 [8]
+	calculate2147483647 : 13
+Invocation k=2 [90]
+	calculate2147483647 : 15
+Invocation k=2 [91]
+	calculate2147483647 : 15
+Invocation k=2 [92]
+	calculate2147483647 : 15
+Invocation k=2 [93]
+	calculate2147483647 : 13
+Invocation k=2 [94]
+	calculate2147483647 : 13
+Invocation k=2 [95]
+	calculate2147483647 : 13
+Invocation k=2 [96]
+	calculate2147483647 : 14
+Invocation k=2 [97]
+	calculate2147483647 : 14
+Invocation k=2 [98]
+	calculate2147483647 : 13
+Invocation k=2 [99]
+	calculate2147483647 : 15
+Invocation k=2 [9]
+	calculate2147483647 : 13
+Invocation k=3 [0]
+	calculate2147483647 : 19
+Invocation k=3 [10]
+	calculate2147483647 : 19
+Invocation k=3 [11]
+	calculate2147483647 : 19
+Invocation k=3 [12]
+	calculate2147483647 : 22
+Invocation k=3 [13]
+	calculate2147483647 : 18
+Invocation k=3 [14]
+	calculate2147483647 : 21
+Invocation k=3 [15]
+	calculate2147483647 : 25
+Invocation k=3 [16]
+	calculate2147483647 : 19
+Invocation k=3 [17]
+	calculate2147483647 : 21
+Invocation k=3 [18]
+	calculate2147483647 : 19
+Invocation k=3 [19]
+	calculate2147483647 : 22
+Invocation k=3 [1]
+	calculate2147483647 : 25
+Invocation k=3 [20]
+	calculate2147483647 : 20
+Invocation k=3 [21]
+	calculate2147483647 : 21
+Invocation k=3 [22]
+	calculate2147483647 : 20
+Invocation k=3 [23]
+	calculate2147483647 : 19
+Invocation k=3 [24]
+	calculate2147483647 : 19
+Invocation k=3 [25]
+	calculate2147483647 : 23
+Invocation k=3 [26]
+	calculate2147483647 : 19
+Invocation k=3 [27]
+	calculate2147483647 : 22
+Invocation k=3 [28]
+	calculate2147483647 : 20
+Invocation k=3 [29]
+	calculate2147483647 : 22
+Invocation k=3 [2]
+	calculate2147483647 : 22
+Invocation k=3 [30]
+	calculate2147483647 : 18
+Invocation k=3 [31]
+	calculate2147483647 : 22
+Invocation k=3 [32]
+	calculate2147483647 : 21
+Invocation k=3 [33]
+	calculate2147483647 : 21
+Invocation k=3 [34]
+	calculate2147483647 : 22
+Invocation k=3 [35]
+	calculate2147483647 : 19
+Invocation k=3 [36]
+	calculate2147483647 : 22
+Invocation k=3 [37]
+	calculate2147483647 : 22
+Invocation k=3 [38]
+	calculate2147483647 : 19
+Invocation k=3 [39]
+	calculate2147483647 : 23
+Invocation k=3 [3]
+	calculate2147483647 : 21
+Invocation k=3 [40]
+	calculate2147483647 : 21
+Invocation k=3 [41]
+	calculate2147483647 : 22
+Invocation k=3 [42]
+	calculate2147483647 : 18
+Invocation k=3 [43]
+	calculate2147483647 : 21
+Invocation k=3 [44]
+	calculate2147483647 : 24
+Invocation k=3 [45]
+	calculate2147483647 : 22
+Invocation k=3 [46]
+	calculate2147483647 : 20
+Invocation k=3 [47]
+	calculate2147483647 : 20
+Invocation k=3 [48]
+	calculate2147483647 : 19
+Invocation k=3 [49]
+	calculate2147483647 : 23
+Invocation k=3 [4]
+	calculate2147483647 : 19
+Invocation k=3 [50]
+	calculate2147483647 : 21
+Invocation k=3 [51]
+	calculate2147483647 : 21
+Invocation k=3 [52]
+	calculate2147483647 : 19
+Invocation k=3 [53]
+	calculate2147483647 : 19
+Invocation k=3 [54]
+	calculate2147483647 : 21
+Invocation k=3 [55]
+	calculate2147483647 : 21
+Invocation k=3 [56]
+	calculate2147483647 : 22
+Invocation k=3 [57]
+	calculate2147483647 : 22
+Invocation k=3 [58]
+	calculate2147483647 : 21
+Invocation k=3 [59]
+	calculate2147483647 : 21
+Invocation k=3 [5]
+	calculate2147483647 : 22
+Invocation k=3 [60]
+	calculate2147483647 : 20
+Invocation k=3 [61]
+	calculate2147483647 : 20
+Invocation k=3 [62]
+	calculate2147483647 : 20
+Invocation k=3 [63]
+	calculate2147483647 : 21
+Invocation k=3 [64]
+	calculate2147483647 : 18
+Invocation k=3 [65]
+	calculate2147483647 : 20
+Invocation k=3 [66]
+	calculate2147483647 : 20
+Invocation k=3 [67]
+	calculate2147483647 : 21
+Invocation k=3 [68]
+	calculate2147483647 : 22
+Invocation k=3 [69]
+	calculate2147483647 : 19
+Invocation k=3 [6]
+	calculate2147483647 : 24
+Invocation k=3 [70]
+	calculate2147483647 : 21
+Invocation k=3 [71]
+	calculate2147483647 : 18
+Invocation k=3 [72]
+	calculate2147483647 : 19
+Invocation k=3 [73]
+	calculate2147483647 : 21
+Invocation k=3 [74]
+	calculate2147483647 : 21
+Invocation k=3 [75]
+	calculate2147483647 : 21
+Invocation k=3 [76]
+	calculate2147483647 : 21
+Invocation k=3 [77]
+	calculate2147483647 : 21
+Invocation k=3 [78]
+	calculate2147483647 : 20
+Invocation k=3 [79]
+	calculate2147483647 : 21
+Invocation k=3 [7]
+	calculate2147483647 : 23
+Invocation k=3 [80]
+	calculate2147483647 : 19
+Invocation k=3 [81]
+	calculate2147483647 : 21
+Invocation k=3 [82]
+	calculate2147483647 : 21
+Invocation k=3 [83]
+	calculate2147483647 : 22
+Invocation k=3 [84]
+	calculate2147483647 : 20
+Invocation k=3 [85]
+	calculate2147483647 : 19
+Invocation k=3 [86]
+	calculate2147483647 : 21
+Invocation k=3 [87]
+	calculate2147483647 : 19
+Invocation k=3 [88]
+	calculate2147483647 : 21
+Invocation k=3 [89]
+	calculate2147483647 : 20
+Invocation k=3 [8]
+	calculate2147483647 : 20
+Invocation k=3 [90]
+	calculate2147483647 : 21
+Invocation k=3 [91]
+	calculate2147483647 : 22
+Invocation k=3 [92]
+	calculate2147483647 : 18
+Invocation k=3 [93]
+	calculate2147483647 : 18
+Invocation k=3 [94]
+	calculate2147483647 : 23
+Invocation k=3 [95]
+	calculate2147483647 : 20
+Invocation k=3 [96]
+	calculate2147483647 : 21
+Invocation k=3 [97]
+	calculate2147483647 : 22
+Invocation k=3 [98]
+	calculate2147483647 : 22
+Invocation k=3 [99]
+	calculate2147483647 : 21
+Invocation k=3 [9]
+	calculate2147483647 : 21
+Invocation k=4 [0]
+	calculate2147483647 : 30
+Invocation k=4 [10]
+	calculate2147483647 : 25
+Invocation k=4 [11]
+	calculate2147483647 : 29
+Invocation k=4 [12]
+	calculate2147483647 : 28
+Invocation k=4 [13]
+	calculate2147483647 : 26
+Invocation k=4 [14]
+	calculate2147483647 : 28
+Invocation k=4 [15]
+	calculate2147483647 : 27
+Invocation k=4 [16]
+	calculate2147483647 : 29
+Invocation k=4 [17]
+	calculate2147483647 : 29
+Invocation k=4 [18]
+	calculate2147483647 : 29
+Invocation k=4 [19]
+	calculate2147483647 : 29
+Invocation k=4 [1]
+	calculate2147483647 : 30
+Invocation k=4 [20]
+	calculate2147483647 : 27
+Invocation k=4 [21]
+	calculate2147483647 : 25
+Invocation k=4 [22]
+	calculate2147483647 : 26
+Invocation k=4 [23]
+	calculate2147483647 : 25
+Invocation k=4 [24]
+	calculate2147483647 : 28
+Invocation k=4 [25]
+	calculate2147483647 : 28
+Invocation k=4 [26]
+	calculate2147483647 : 26
+Invocation k=4 [27]
+	calculate2147483647 : 29
+Invocation k=4 [28]
+	calculate2147483647 : 26
+Invocation k=4 [29]
+	calculate2147483647 : 27
+Invocation k=4 [2]
+	calculate2147483647 : 27
+Invocation k=4 [30]
+	calculate2147483647 : 29
+Invocation k=4 [31]
+	calculate2147483647 : 28
+Invocation k=4 [32]
+	calculate2147483647 : 27
+Invocation k=4 [33]
+	calculate2147483647 : 26
+Invocation k=4 [34]
+	calculate2147483647 : 30
+Invocation k=4 [35]
+	calculate2147483647 : 26
+Invocation k=4 [36]
+	calculate2147483647 : 25
+Invocation k=4 [37]
+	calculate2147483647 : 27
+Invocation k=4 [38]
+	calculate2147483647 : 25
+Invocation k=4 [39]
+	calculate2147483647 : 27
+Invocation k=4 [3]
+	calculate2147483647 : 28
+Invocation k=4 [40]
+	calculate2147483647 : 28
+Invocation k=4 [41]
+	calculate2147483647 : 26
+Invocation k=4 [42]
+	calculate2147483647 : 27
+Invocation k=4 [43]
+	calculate2147483647 : 26
+Invocation k=4 [44]
+	calculate2147483647 : 28
+Invocation k=4 [45]
+	calculate2147483647 : 26
+Invocation k=4 [46]
+	calculate2147483647 : 26
+Invocation k=4 [47]
+	calculate2147483647 : 30
+Invocation k=4 [48]
+	calculate2147483647 : 27
+Invocation k=4 [49]
+	calculate2147483647 : 29
+Invocation k=4 [4]
+	calculate2147483647 : 26
+Invocation k=4 [50]
+	calculate2147483647 : 29
+Invocation k=4 [51]
+	calculate2147483647 : 30
+Invocation k=4 [52]
+	calculate2147483647 : 30
+Invocation k=4 [53]
+	calculate2147483647 : 30
+Invocation k=4 [54]
+	calculate2147483647 : 30
+Invocation k=4 [55]
+	calculate2147483647 : 26
+Invocation k=4 [56]
+	calculate2147483647 : 27
+Invocation k=4 [57]
+	calculate2147483647 : 27
+Invocation k=4 [58]
+	calculate2147483647 : 28
+Invocation k=4 [59]
+	calculate2147483647 : 28
+Invocation k=4 [5]
+	calculate2147483647 : 27
+Invocation k=4 [60]
+	calculate2147483647 : 29
+Invocation k=4 [61]
+	calculate2147483647 : 28
+Invocation k=4 [62]
+	calculate2147483647 : 28
+Invocation k=4 [63]
+	calculate2147483647 : 25
+Invocation k=4 [64]
+	calculate2147483647 : 30
+Invocation k=4 [65]
+	calculate2147483647 : 28
+Invocation k=4 [66]
+	calculate2147483647 : 25
+Invocation k=4 [67]
+	calculate2147483647 : 30
+Invocation k=4 [68]
+	calculate2147483647 : 28
+Invocation k=4 [69]
+	calculate2147483647 : 27
+Invocation k=4 [6]
+	calculate2147483647 : 30
+Invocation k=4 [70]
+	calculate2147483647 : 26
+Invocation k=4 [71]
+	calculate2147483647 : 27
+Invocation k=4 [72]
+	calculate2147483647 : 26
+Invocation k=4 [73]
+	calculate2147483647 : 25
+Invocation k=4 [74]
+	calculate2147483647 : 27
+Invocation k=4 [75]
+	calculate2147483647 : 28
+Invocation k=4 [76]
+	calculate2147483647 : 26
+Invocation k=4 [77]
+	calculate2147483647 : 28
+Invocation k=4 [78]
+	calculate2147483647 : 26
+Invocation k=4 [79]
+	calculate2147483647 : 25
+Invocation k=4 [7]
+	calculate2147483647 : 29
+Invocation k=4 [80]
+	calculate2147483647 : 29
+Invocation k=4 [81]
+	calculate2147483647 : 28
+Invocation k=4 [82]
+	calculate2147483647 : 27
+Invocation k=4 [83]
+	calculate2147483647 : 28
+Invocation k=4 [84]
+	calculate2147483647 : 27
+Invocation k=4 [85]
+	calculate2147483647 : 30
+Invocation k=4 [86]
+	calculate2147483647 : 32
+Invocation k=4 [87]
+	calculate2147483647 : 26
+Invocation k=4 [88]
+	calculate2147483647 : 27
+Invocation k=4 [89]
+	calculate2147483647 : 28
+Invocation k=4 [8]
+	calculate2147483647 : 26
+Invocation k=4 [90]
+	calculate2147483647 : 30
+Invocation k=4 [91]
+	calculate2147483647 : 29
+Invocation k=4 [92]
+	calculate2147483647 : 28
+Invocation k=4 [93]
+	calculate2147483647 : 30
+Invocation k=4 [94]
+	calculate2147483647 : 27
+Invocation k=4 [95]
+	calculate2147483647 : 28
+Invocation k=4 [96]
+	calculate2147483647 : 27
+Invocation k=4 [97]
+	calculate2147483647 : 28
+Invocation k=4 [98]
+	calculate2147483647 : 30
+Invocation k=4 [99]
+	calculate2147483647 : 28
+Invocation k=4 [9]
+	calculate2147483647 : 32
+Invocation k=5 [0]
+	calculate2147483647 : 37
+Invocation k=5 [10]
+	calculate2147483647 : 36
+Invocation k=5 [11]
+	calculate2147483647 : 34
+Invocation k=5 [12]
+	calculate2147483647 : 37
+Invocation k=5 [13]
+	calculate2147483647 : 35
+Invocation k=5 [14]
+	calculate2147483647 : 34
+Invocation k=5 [15]
+	calculate2147483647 : 34
+Invocation k=5 [16]
+	calculate2147483647 : 35
+Invocation k=5 [17]
+	calculate2147483647 : 33
+Invocation k=5 [18]
+	calculate2147483647 : 34
+Invocation k=5 [19]
+	calculate2147483647 : 34
+Invocation k=5 [1]
+	calculate2147483647 : 37
+Invocation k=5 [20]
+	calculate2147483647 : 38
+Invocation k=5 [21]
+	calculate2147483647 : 32
+Invocation k=5 [22]
+	calculate2147483647 : 31
+Invocation k=5 [23]
+	calculate2147483647 : 33
+Invocation k=5 [24]
+	calculate2147483647 : 39
+Invocation k=5 [25]
+	calculate2147483647 : 35
+Invocation k=5 [26]
+	calculate2147483647 : 35
+Invocation k=5 [27]
+	calculate2147483647 : 33
+Invocation k=5 [28]
+	calculate2147483647 : 34
+Invocation k=5 [29]
+	calculate2147483647 : 37
+Invocation k=5 [2]
+	calculate2147483647 : 34
+Invocation k=5 [30]
+	calculate2147483647 : 33
+Invocation k=5 [31]
+	calculate2147483647 : 38
+Invocation k=5 [32]
+	calculate2147483647 : 35
+Invocation k=5 [33]
+	calculate2147483647 : 35
+Invocation k=5 [34]
+	calculate2147483647 : 34
+Invocation k=5 [35]
+	calculate2147483647 : 36
+Invocation k=5 [36]
+	calculate2147483647 : 34
+Invocation k=5 [37]
+	calculate2147483647 : 33
+Invocation k=5 [38]
+	calculate2147483647 : 36
+Invocation k=5 [39]
+	calculate2147483647 : 36
+Invocation k=5 [3]
+	calculate2147483647 : 33
+Invocation k=5 [40]
+	calculate2147483647 : 35
+Invocation k=5 [41]
+	calculate2147483647 : 32
+Invocation k=5 [42]
+	calculate2147483647 : 35
+Invocation k=5 [43]
+	calculate2147483647 : 35
+Invocation k=5 [44]
+	calculate2147483647 : 32
+Invocation k=5 [45]
+	calculate2147483647 : 34
+Invocation k=5 [46]
+	calculate2147483647 : 35
+Invocation k=5 [47]
+	calculate2147483647 : 32
+Invocation k=5 [48]
+	calculate2147483647 : 31
+Invocation k=5 [49]
+	calculate2147483647 : 35
+Invocation k=5 [4]
+	calculate2147483647 : 34
+Invocation k=5 [50]
+	calculate2147483647 : 33
+Invocation k=5 [51]
+	calculate2147483647 : 32
+Invocation k=5 [52]
+	calculate2147483647 : 34
+Invocation k=5 [53]
+	calculate2147483647 : 36
+Invocation k=5 [54]
+	calculate2147483647 : 33
+Invocation k=5 [55]
+	calculate2147483647 : 32
+Invocation k=5 [56]
+	calculate2147483647 : 37
+Invocation k=5 [57]
+	calculate2147483647 : 38
+Invocation k=5 [58]
+	calculate2147483647 : 31
+Invocation k=5 [59]
+	calculate2147483647 : 31
+Invocation k=5 [5]
+	calculate2147483647 : 36
+Invocation k=5 [60]
+	calculate2147483647 : 39
+Invocation k=5 [61]
+	calculate2147483647 : 34
+Invocation k=5 [62]
+	calculate2147483647 : 33
+Invocation k=5 [63]
+	calculate2147483647 : 31
+Invocation k=5 [64]
+	calculate2147483647 : 38
+Invocation k=5 [65]
+	calculate2147483647 : 37
+Invocation k=5 [66]
+	calculate2147483647 : 32
+Invocation k=5 [67]
+	calculate2147483647 : 34
+Invocation k=5 [68]
+	calculate2147483647 : 35
+Invocation k=5 [69]
+	calculate2147483647 : 34
+Invocation k=5 [6]
+	calculate2147483647 : 34
+Invocation k=5 [70]
+	calculate2147483647 : 36
+Invocation k=5 [71]
+	calculate2147483647 : 31
+Invocation k=5 [72]
+	calculate2147483647 : 33
+Invocation k=5 [73]
+	calculate2147483647 : 33
+Invocation k=5 [74]
+	calculate2147483647 : 35
+Invocation k=5 [75]
+	calculate2147483647 : 34
+Invocation k=5 [76]
+	calculate2147483647 : 34
+Invocation k=5 [77]
+	calculate2147483647 : 34
+Invocation k=5 [78]
+	calculate2147483647 : 33
+Invocation k=5 [79]
+	calculate2147483647 : 34
+Invocation k=5 [7]
+	calculate2147483647 : 31
+Invocation k=5 [80]
+	calculate2147483647 : 33
+Invocation k=5 [81]
+	calculate2147483647 : 35
+Invocation k=5 [82]
+	calculate2147483647 : 34
+Invocation k=5 [83]
+	calculate2147483647 : 37
+Invocation k=5 [84]
+	calculate2147483647 : 33
+Invocation k=5 [85]
+	calculate2147483647 : 36
+Invocation k=5 [86]
+	calculate2147483647 : 35
+Invocation k=5 [87]
+	calculate2147483647 : 35
+Invocation k=5 [88]
+	calculate2147483647 : 35
+Invocation k=5 [89]
+	calculate2147483647 : 33
+Invocation k=5 [8]
+	calculate2147483647 : 32
+Invocation k=5 [90]
+	calculate2147483647 : 34
+Invocation k=5 [91]
+	calculate2147483647 : 36
+Invocation k=5 [92]
+	calculate2147483647 : 37
+Invocation k=5 [93]
+	calculate2147483647 : 32
+Invocation k=5 [94]
+	calculate2147483647 : 31
+Invocation k=5 [95]
+	calculate2147483647 : 32
+Invocation k=5 [96]
+	calculate2147483647 : 36
+Invocation k=5 [97]
+	calculate2147483647 : 35
+Invocation k=5 [98]
+	calculate2147483647 : 32
+Invocation k=5 [99]
+	calculate2147483647 : 34
+Invocation k=5 [9]
+	calculate2147483647 : 34
+Invocation k=6 [0]
+	calculate2147483647 : 45
+Invocation k=6 [10]
+	calculate2147483647 : 44
+Invocation k=6 [11]
+	calculate2147483647 : 43
+Invocation k=6 [12]
+	calculate2147483647 : 42
+Invocation k=6 [13]
+	calculate2147483647 : 40
+Invocation k=6 [14]
+	calculate2147483647 : 44
+Invocation k=6 [15]
+	calculate2147483647 : 42
+Invocation k=6 [16]
+	calculate2147483647 : 37
+Invocation k=6 [17]
+	calculate2147483647 : 39
+Invocation k=6 [18]
+	calculate2147483647 : 42
+Invocation k=6 [19]
+	calculate2147483647 : 42
+Invocation k=6 [1]
+	calculate2147483647 : 42
+Invocation k=6 [20]
+	calculate2147483647 : 41
+Invocation k=6 [21]
+	calculate2147483647 : 46
+Invocation k=6 [22]
+	calculate2147483647 : 41
+Invocation k=6 [23]
+	calculate2147483647 : 40
+Invocation k=6 [24]
+	calculate2147483647 : 40
+Invocation k=6 [25]
+	calculate2147483647 : 44
+Invocation k=6 [26]
+	calculate2147483647 : 40
+Invocation k=6 [27]
+	calculate2147483647 : 42
+Invocation k=6 [28]
+	calculate2147483647 : 42
+Invocation k=6 [29]
+	calculate2147483647 : 41
+Invocation k=6 [2]
+	calculate2147483647 : 42
+Invocation k=6 [30]
+	calculate2147483647 : 42
+Invocation k=6 [31]
+	calculate2147483647 : 42
+Invocation k=6 [32]
+	calculate2147483647 : 40
+Invocation k=6 [33]
+	calculate2147483647 : 42
+Invocation k=6 [34]
+	calculate2147483647 : 44
+Invocation k=6 [35]
+	calculate2147483647 : 44
+Invocation k=6 [36]
+	calculate2147483647 : 42
+Invocation k=6 [37]
+	calculate2147483647 : 47
+Invocation k=6 [38]
+	calculate2147483647 : 40
+Invocation k=6 [39]
+	calculate2147483647 : 40
+Invocation k=6 [3]
+	calculate2147483647 : 42
+Invocation k=6 [40]
+	calculate2147483647 : 41
+Invocation k=6 [41]
+	calculate2147483647 : 46
+Invocation k=6 [42]
+	calculate2147483647 : 40
+Invocation k=6 [43]
+	calculate2147483647 : 39
+Invocation k=6 [44]
+	calculate2147483647 : 38
+Invocation k=6 [45]
+	calculate2147483647 : 42
+Invocation k=6 [46]
+	calculate2147483647 : 43
+Invocation k=6 [47]
+	calculate2147483647 : 40
+Invocation k=6 [48]
+	calculate2147483647 : 43
+Invocation k=6 [49]
+	calculate2147483647 : 40
+Invocation k=6 [4]
+	calculate2147483647 : 42
+Invocation k=6 [50]
+	calculate2147483647 : 40
+Invocation k=6 [51]
+	calculate2147483647 : 39
+Invocation k=6 [52]
+	calculate2147483647 : 40
+Invocation k=6 [53]
+	calculate2147483647 : 41
+Invocation k=6 [54]
+	calculate2147483647 : 40
+Invocation k=6 [55]
+	calculate2147483647 : 42
+Invocation k=6 [56]
+	calculate2147483647 : 45
+Invocation k=6 [57]
+	calculate2147483647 : 40
+Invocation k=6 [58]
+	calculate2147483647 : 43
+Invocation k=6 [59]
+	calculate2147483647 : 42
+Invocation k=6 [5]
+	calculate2147483647 : 43
+Invocation k=6 [60]
+	calculate2147483647 : 40
+Invocation k=6 [61]
+	calculate2147483647 : 39
+Invocation k=6 [62]
+	calculate2147483647 : 40
+Invocation k=6 [63]
+	calculate2147483647 : 42
+Invocation k=6 [64]
+	calculate2147483647 : 39
+Invocation k=6 [65]
+	calculate2147483647 : 40
+Invocation k=6 [66]
+	calculate2147483647 : 39
+Invocation k=6 [67]
+	calculate2147483647 : 41
+Invocation k=6 [68]
+	calculate2147483647 : 44
+Invocation k=6 [69]
+	calculate2147483647 : 46
+Invocation k=6 [6]
+	calculate2147483647 : 40
+Invocation k=6 [70]
+	calculate2147483647 : 42
+Invocation k=6 [71]
+	calculate2147483647 : 42
+Invocation k=6 [72]
+	calculate2147483647 : 44
+Invocation k=6 [73]
+	calculate2147483647 : 41
+Invocation k=6 [74]
+	calculate2147483647 : 44
+Invocation k=6 [75]
+	calculate2147483647 : 44
+Invocation k=6 [76]
+	calculate2147483647 : 41
+Invocation k=6 [77]
+	calculate2147483647 : 40
+Invocation k=6 [78]
+	calculate2147483647 : 40
+Invocation k=6 [79]
+	calculate2147483647 : 42
+Invocation k=6 [7]
+	calculate2147483647 : 43
+Invocation k=6 [80]
+	calculate2147483647 : 44
+Invocation k=6 [81]
+	calculate2147483647 : 42
+Invocation k=6 [82]
+	calculate2147483647 : 43
+Invocation k=6 [83]
+	calculate2147483647 : 42
+Invocation k=6 [84]
+	calculate2147483647 : 42
+Invocation k=6 [85]
+	calculate2147483647 : 43
+Invocation k=6 [86]
+	calculate2147483647 : 40
+Invocation k=6 [87]
+	calculate2147483647 : 41
+Invocation k=6 [88]
+	calculate2147483647 : 41
+Invocation k=6 [89]
+	calculate2147483647 : 40
+Invocation k=6 [8]
+	calculate2147483647 : 42
+Invocation k=6 [90]
+	calculate2147483647 : 44
+Invocation k=6 [91]
+	calculate2147483647 : 41
+Invocation k=6 [92]
+	calculate2147483647 : 38
+Invocation k=6 [93]
+	calculate2147483647 : 41
+Invocation k=6 [94]
+	calculate2147483647 : 41
+Invocation k=6 [95]
+	calculate2147483647 : 43
+Invocation k=6 [96]
+	calculate2147483647 : 40
+Invocation k=6 [97]
+	calculate2147483647 : 40
+Invocation k=6 [98]
+	calculate2147483647 : 42
+Invocation k=6 [99]
+	calculate2147483647 : 38
+Invocation k=6 [9]
+	calculate2147483647 : 41
+

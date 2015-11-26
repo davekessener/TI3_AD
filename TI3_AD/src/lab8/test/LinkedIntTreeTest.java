@@ -21,5 +21,15 @@ public class LinkedIntTreeTest
         assertEquals(20 + 35 + 38, t.getSumBetween(0, 40));
         assertEquals(53 + 54 + 55 + 57 + 66, t.getSumBetween(40, 70));
         assertEquals(74 + 82, t.getSumBetween(70, 100));
+        assertEquals(0, t.getSumBetween(-2, -1));
+        assertEquals(0, t.getSumBetween(100, 101));
+    }
+    
+    @Test(expected = IllegalArgumentException.class)
+    public void testInvalidIntervall()
+    {
+        LinkedIntTree t = new LinkedIntTree();
+
+        t.getSumBetween(2, 1);
     }
 }

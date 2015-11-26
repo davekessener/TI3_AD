@@ -3,6 +3,7 @@ import lab2.test.PrimeSearchDigest;
 import lab4.test.PascalDigest;
 import lab5.test.SortDigest;
 import lab6.Digest;
+import lab8.test.LinkedIntTreeDigest;
 
 
 @SuppressWarnings("all")
@@ -13,6 +14,6 @@ public class Start
 //        (new ListDigest()).run();
 //        (new PrimeSearchDigest()).run();
 //        (new PascalDigest()).run();
-        (new Digest()).run();
+        (new LinkedIntTreeDigest()).run();
     }
 }
