@@ -39,7 +39,9 @@ public class ListGraph<T> extends AbstractGraph<T>
     @Override
     public Iterable<T> getOutNeighbors(T t)
     {
-        return neighbors(t, (i1, i2) -> connections_.get(i1).containsKey(get(i2)));
+        checkIn(t);
+        
+        return connections_.get(lookup(t)).keySet();
     }
     
     @Override

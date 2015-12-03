@@ -2,6 +2,8 @@ package lab9;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.PriorityQueue;
+import java.util.Queue;
 
 public class Dykstra
 {
@@ -18,13 +20,13 @@ public class Dykstra
         
         public Algorithm(Graph<T> graph, T root)
         {
-            PriorityHeap<Node> open = new PriorityHeap<>();
+            Queue<Node> open = new PriorityQueue<>();
             
-            open.insert(getNode(root));
+            open.add(getRootNode(root));
             
             while(!open.isEmpty())
             {
-                Node n = open.pop();
+                Node n = open.poll();
                 
                 n.marked = true;
                 
@@ -42,7 +44,7 @@ public class Dykstra
                             m.prev = n;
                         }
                         
-                        open.insert(m);
+                        open.add(m);
                     }
                 }
             }
@@ -58,6 +60,15 @@ public class Dykstra
             }
             
             return r;
+        }
+        
+        private Node getRootNode(T root)
+        {
+            Node n = getNode(root);
+            
+            n.cost = 0D;
+            
+            return n;
         }
         
         private Node getNode(T v)
@@ -82,7 +93,7 @@ public class Dykstra
             {
                 value = v;
                 prev = null;
-                cost = Double.POSITIVE_INFINITY;
+                cost = Double.MAX_VALUE;
                 marked = false;
             }
             

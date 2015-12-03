@@ -130,13 +130,13 @@ public abstract class AbstractGraph<T> implements Graph<T>
         return n;
     }
     
-    private void checkIn(T t)
+    protected void checkIn(T t)
     {
         if(!contains(t))
             throw new IllegalArgumentException(t + " is not in the graph!");
     }
     
-    private void checkOut(T t)
+    protected void checkOut(T t)
     {
         if(contains(t))
             throw new IllegalArgumentException(t + " is already in the graph!");

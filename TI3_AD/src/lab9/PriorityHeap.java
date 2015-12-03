@@ -63,11 +63,12 @@ public class PriorityHeap<T>
         return size_ == 0;
     }
     
+    @SuppressWarnings("unchecked")
     private void resize()
     {
         if(size_ == cap_)
         {
-            vals_ = Arrays.copyOf(vals_, cap_ = cap_ * 2 + 1);
+            vals_ = Arrays.copyOf(vals_ == null ? (T[]) new Object[0] : vals_, cap_ = cap_ * 2 + 1);
         }
         else if(size_ < cap_ / 4)
         {

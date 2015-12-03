@@ -1,0 +1,169 @@
+
+
+MapImplementation
+-----------------------------
+Invocation 0 00
+	findPath : 120
+Invocation 0 01
+	findPath : 109
+Invocation 0 02
+	findPath : 208
+Invocation 0 03
+	findPath : 164
+Invocation 0 04
+	findPath : 153
+Invocation 0 05
+	findPath : 230
+Invocation 0 06
+	findPath : 373
+Invocation 0 07
+	findPath : 10
+Invocation 0 08
+	findPath : 131
+Invocation 0 09
+	findPath : 98
+Invocation 1 00
+	findPath : 53125
+Invocation 1 01
+	findPath : 24744
+Invocation 1 02
+	findPath : 52418
+Invocation 1 03
+	findPath : 100
+Invocation 1 04
+	findPath : 40399
+Invocation 1 05
+	findPath : 100
+Invocation 1 06
+	findPath : 31309
+Invocation 1 07
+	findPath : 45550
+Invocation 1 08
+	findPath : 53630
+Invocation 1 09
+	findPath : 38076
+Invocation 2 00
+	findPath : 4594589
+Invocation 2 01
+	findPath : 4729724
+Invocation 2 02
+	findPath : 5550544
+Invocation 2 03
+	findPath : 5578572
+Invocation 2 04
+	findPath : 5139133
+Invocation 2 05
+	findPath : 1000
+Invocation 2 06
+	findPath : 5718712
+Invocation 2 07
+	findPath : 5590584
+Invocation 2 08
+	findPath : 5538532
+Invocation 2 09
+	findPath : 4756751
+Invocation 3 00
+	findPath : 503390333
+Invocation 3 01
+	findPath : 550495043
+Invocation 3 02
+	findPath : 549214915
+Invocation 3 03
+	findPath : 540754069
+Invocation 3 04
+	findPath : 546494643
+Invocation 3 05
+	findPath : 558345828
+Invocation 3 06
+	findPath : 512571251
+Invocation 3 07
+	findPath : 10000
+Invocation 3 08
+	findPath : 535633557
+Invocation 3 09
+	findPath : 534043398
+
+
+ListImplementation
+-----------------------------
+Invocation 0 00
+	findPath : 21
+Invocation 0 01
+	findPath : 19
+Invocation 0 02
+	findPath : 37
+Invocation 0 03
+	findPath : 29
+Invocation 0 04
+	findPath : 27
+Invocation 0 05
+	findPath : 41
+Invocation 0 06
+	findPath : 67
+Invocation 0 07
+	findPath : 1
+Invocation 0 08
+	findPath : 23
+Invocation 0 09
+	findPath : 17
+Invocation 1 00
+	findPath : 1051
+Invocation 1 01
+	findPath : 489
+Invocation 1 02
+	findPath : 1037
+Invocation 1 03
+	findPath : 1
+Invocation 1 04
+	findPath : 799
+Invocation 1 05
+	findPath : 1
+Invocation 1 06
+	findPath : 619
+Invocation 1 07
+	findPath : 901
+Invocation 1 08
+	findPath : 1061
+Invocation 1 09
+	findPath : 753
+Invocation 2 00
+	findPath : 9179
+Invocation 2 01
+	findPath : 9451
+Invocation 2 02
+	findPath : 11159
+Invocation 2 03
+	findPath : 11197
+Invocation 2 04
+	findPath : 10223
+Invocation 2 05
+	findPath : 1
+Invocation 2 06
+	findPath : 11335
+Invocation 2 07
+	findPath : 11359
+Invocation 2 08
+	findPath : 11065
+Invocation 2 09
+	findPath : 9491
+Invocation 3 00
+	findPath : 100625
+Invocation 3 01
+	findPath : 110115
+Invocation 3 02
+	findPath : 109885
+Invocation 3 03
+	findPath : 108313
+Invocation 3 04
+	findPath : 109327
+Invocation 3 05
+	findPath : 111679
+Invocation 3 06
+	findPath : 102557
+Invocation 3 07
+	findPath : 1
+Invocation 3 08
+	findPath : 107191
+Invocation 3 09
+	findPath : 106943
+

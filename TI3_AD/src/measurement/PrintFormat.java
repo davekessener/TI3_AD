@@ -5,7 +5,7 @@ public class PrintFormat extends AbstractFormatter
     @Override
     public void onClass(Class<?> c)
     {
-        add("\n\n%s\n-----------------------------\n", c.toString());
+        add("\n\n%s\n-----------------------------\n", c.getSimpleName());
     }
 
     @Override
