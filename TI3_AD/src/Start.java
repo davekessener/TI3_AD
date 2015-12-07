@@ -1,4 +1,5 @@
 import lab1.test.ListDigest;
+import lab10.ui.MapViewer;
 import lab2.test.PrimeSearchDigest;
 import lab4.test.PascalDigest;
 import lab5.test.SortDigest;
@@ -10,8 +11,7 @@ import lab9.test.GraphDigest;
 @SuppressWarnings("all")
 public class Start
 {
-    public static void main(String[] args)
-    {
-        (new GraphDigest()).run();
-    }
+//    public static void main(String[] args)
+//    {
+//    }
 }
