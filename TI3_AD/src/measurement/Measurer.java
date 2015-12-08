@@ -51,10 +51,12 @@ public final class Measurer
         for(Class<?> c : classes_)
         {
             Map<String, Map<String, Long>> invocation = new TreeMap<>();
+            int i = 0;
             
             for(String iter_name : invocations_.keySet())
             {
                 Map<String, Long> result = new LinkedHashMap<>();
+                int j = 0;
                 
                 for(ParameterFactory p : methods_)
                 {
@@ -68,9 +70,14 @@ public final class Measurer
                     m.invoke(l, ps);
                     
                     result.put(p.getID(), l.getCounter());
+                    
+                    if(++j % (methods_.size() / 10) == 0)
+                    System.err.printf("%d%%\n", j * 100 / methods_.size());
                 }
                 
                 invocation.put(iter_name, result);
+                
+                System.err.printf("\rTotal %d%% done!\n", ++i * 100 / invocations_.size());
             }
             
             results.put(c, invocation);
